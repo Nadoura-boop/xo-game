@@ -1,0 +1,149 @@
+body{
+    background-color:#192a32 ;
+      }
+      
+.game{
+
+    color: white;
+    width: 355px;
+    margin: auto;
+    margin-top:50px;
+    
+    
+   
+}
+.header{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color:#33c1be ;
+    letter-spacing:5 px;
+    
+}
+span{
+color:#f0b238;
+}
+.title{
+    margin-left: 150px;
+    position: absolute;
+    top: 65px;
+    margin-left: 6.4rem;
+    width: 5rem;
+    height: 1.6rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color:#1f3540;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.324);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #a8bec9  ;
+    
+
+}
+.title span{
+    color:#a8bec9  ;
+}
+.game button{
+  background-color: #a8bec9  ;
+  border: none;
+ position: relative;
+ right:60px;
+ top: -3.3rem;
+ border-radius: 6px;
+ height: 35px;
+ 
+ 
+}
+button:hover{
+    cursor: pointer;
+}
+.square{
+font-family: "Indie Flower", cursive;
+font-weight: 900;
+font-style: normal;
+background-color:#1f3540;
+box-shadow: 0px   5px rgba(0, 0, 0, 0.324);
+width: 80px;
+height:80px;
+margin: 12px;
+float: left;
+font-size: 2.9rem;
+border-radius: 10px;
+text-align: center;
+
+
+}
+.square:hover{
+   
+    cursor: pointer;
+    transition: 0.1s ease ;
+}
+.win{
+    background-color: #192a32;
+    height: 100%;
+    width:100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    gap: 1em;
+    color: white;
+}
+#newgame{
+    font-size:1.5em;
+    border-radius: 0.3em;
+    padding: .5em 1em;
+    border: none;
+    background-color: #a8bec9;
+    font-family: "Anton SC", sans-serif;
+    
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: -90px;
+
+    
+}
+#msg{
+    font-size: 2rem;
+    margin-top: -70px;
+    color:#f0b238;
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+      
+    
+}
+.h{
+    color: #07090a  ;
+    background-color: #a8bec9 ;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.win{
+    display: none;
+}
+/* @media screen and (max-width: 00px) {
+    .game {
+      width: 300px;
+      height: 300px;
+      background-color: #07090a;
+    }
+    .square{
+        width: 50px;
+        height:30px;
+        margin: 6px;
+    }
+  }
+   */
